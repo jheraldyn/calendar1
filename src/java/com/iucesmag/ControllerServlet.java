@@ -32,7 +32,7 @@ public class ControllerServlet extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
       
                ScoresData scoresData = new ScoresData();
-        scoresData.setMeses(request.getParameter("meses"));
+        scoresData.setMeses(request.getParameter("Calendar"));
         
         request.setAttribute("scoresData", scoresData);
         request.getRequestDispatcher("calen.jsp").forward(request, response);

@@ -14,7 +14,8 @@
     </head>
     <center><body>
         
-       <%@ include file= "WEB-INF/jspf/banner2.jspf" %>    
+       <%@ include file= "WEB-INF/jspf/banner2.jspf" %>   
+      
        <table border="1">
            <thead>
                <tr>
@@ -30,7 +31,7 @@
            <tbody>
                
     <c:choose>
-        <c:when test="${scoresData.meses == '1'||scoresData.meses == '3'||scoresData.meses == '5'||scoresData.meses == '7'||scoresData.meses == '8'||scoresData.meses == '10'||scoresData.meses == '10'}">  
+        <c:when test="${scoresData.meses == '1'||scoresData.meses == '3'||scoresData.meses == '5'||scoresData.meses == '7'||scoresData.meses == '8'||scoresData.meses == '10'||scoresData.meses == '12'}">  
            <%
       
   
@@ -110,6 +111,7 @@
         </c:when>
        
         <c:otherwise>
+           
         </c:otherwise>
     </c:choose>
                
