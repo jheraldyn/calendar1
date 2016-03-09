@@ -12,7 +12,7 @@
         <link href="css/estilo1_1.css" rel="stylesheet" type="text/css"/>
         <title>JSP Page</title>
     </head>
-    <center><body>
+    <body><center>
         
        <%@ include file= "WEB-INF/jspf/banner2.jspf" %>   
       
@@ -118,5 +118,5 @@
            </tbody>
        </table>
     
-        </body></center>
+        </center></body>
 </html>
